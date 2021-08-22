@@ -19,6 +19,8 @@ geth --datadir node2 account new
 ```
 puppeth
 ```
+![](Screenshots/puppeth.png)
+
 * Follow the prompts to your specifications
 
 **Consensus Engine** - Proof-of-work or Proof-of-authority
