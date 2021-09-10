@@ -11,8 +11,6 @@ You don't need to be a computer scientist or master hacker to run a blockchain n
 geth --datadir node1 account new
 geth --datadir node2 account new
 ```
-![](Screenshots/new_node1.png)
-![](Screenshots/new_node2.png)
 
 ## Create network and genesis block
 * Launch the network manager tool installed that comes with Geth
@@ -41,7 +39,6 @@ puppeth
 geth --datadir node1 init network.json
 geth --datadir node2 init network.json
 ```
-![](Screenshots/init_nodes.png)
 * Connect nodes to blockchain (each in its own terminal)
 ```
 geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
